@@ -1,4 +1,5 @@
 from random import randint
+
 '''
 Максим программирует целый день на работе и вечером идёт домой. Каждый час начальство кидает ему несколько задач,
 которые нужно решить до следующего рабочего часа. Вдобавок каждый час Максиму звонит супруга.
@@ -14,7 +15,7 @@ tasks = 0
 flag = True
 while count_hours <= 8:
     print(f"{count_hours}-й час")
-    random = randint(1,5)
+    random = randint(1, 5)
     print(f"Сколько задач решит Максим? {random}")
     tasks += random
     if flag:
@@ -22,7 +23,8 @@ while count_hours <= 8:
         print(f"Звонит жена. Взять трубку? (1 — да, 0 — нет): {random_calling_wife}")
         if random_calling_wife == 1:
             flag = False
-    else: pass
+    else:
+        pass
     count_hours += 1
 print(f"Рабочий день закончился. Всего выполнено задач: {tasks}")
 if flag != True:
