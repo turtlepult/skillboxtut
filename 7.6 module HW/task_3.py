@@ -1,3 +1,4 @@
+#Задача 3. Успеваемость в классе
 count_satisfactory = 0
 count_good = 0
 count_perfect = 0
