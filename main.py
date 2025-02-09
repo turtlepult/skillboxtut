@@ -1,4 +1,4 @@
-lens = [1,2,3,4,45645,86789,423,6723,234236]
+input_value = "abababaaaa"
+for i in input_value:
 
-for count, values in enumerate(lens):
-    print(count, values)
+    print(i)
